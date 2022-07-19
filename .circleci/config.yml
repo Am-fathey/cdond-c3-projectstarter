@@ -51,8 +51,7 @@ commands:
 #            #  npm install
 #            #  Add revert code here. You can find this in the Getting Started section.
 #              exit 1
-#            fi
-            
+#            fi         
 jobs:
   build-frontend:
     docker:
@@ -184,7 +183,7 @@ jobs:
           root: ~/
           paths:
             - project/.circleci/ansible/inventory.txt
-      # Here's where you will add some code to rollback on failure      
+# Here's where you will add some code to rollback on failure      
 
 #configure-infrastructure:
 #    docker:
