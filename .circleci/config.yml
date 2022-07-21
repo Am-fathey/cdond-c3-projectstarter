@@ -20,6 +20,10 @@ commands:
             curl -fsSL https://deb.nodesource.com/setup_13.x | sudo -E bash -
             sudo apt install -y nodejs
 
+            # Use nvm
+            sudo npm install --global n
+            sudo n 13.8.0
+
   install_ansible:
     description: Install Ansible
     steps:
