@@ -70,7 +70,7 @@ commands:
               npm install
               npm run migrations:revert
             fi         
-#Jobs
+
 jobs:
   build-frontend:
     docker:
